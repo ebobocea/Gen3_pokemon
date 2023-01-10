@@ -57,9 +57,9 @@
 			children = (
 				E6198EC4291A9C4A005A74EF /* Gen3App.swift */,
 				E6198EC6291A9C4A005A74EF /* ContentView.swift */,
-				E6198EC8291A9C4B005A74EF /* Assets.xcassets */,
 				E6198ECD291A9C4B005A74EF /* Persistence.swift */,
 				E6198ECF291A9C4B005A74EF /* Gen3.xcdatamodeld */,
+				E6198EC8291A9C4B005A74EF /* Assets.xcassets */,
 				E6198ECA291A9C4B005A74EF /* Preview Content */,
 			);
 			path = Gen3;

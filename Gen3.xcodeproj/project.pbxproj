@@ -13,6 +13,7 @@
 		E6198ECC291A9C4B005A74EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6198ECB291A9C4B005A74EF /* Preview Assets.xcassets */; };
 		E6198ECE291A9C4B005A74EF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6198ECD291A9C4B005A74EF /* Persistence.swift */; };
 		E6198ED1291A9C4B005A74EF /* Gen3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6198ECF291A9C4B005A74EF /* Gen3.xcdatamodeld */; };
+		E65EF17C296DBF8700755D0A /* TempPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65EF17B296DBF8700755D0A /* TempPokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E6198ECB291A9C4B005A74EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E6198ECD291A9C4B005A74EF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E6198ED0291A9C4B005A74EF /* Gen3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gen3.xcdatamodel; sourceTree = "<group>"; };
+		E65EF17B296DBF8700755D0A /* TempPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempPokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 			children = (
 				E6198EC4291A9C4A005A74EF /* Gen3App.swift */,
 				E6198EC6291A9C4A005A74EF /* ContentView.swift */,
-				E6198EC8291A9C4B005A74EF /* Assets.xcassets */,
 				E6198ECD291A9C4B005A74EF /* Persistence.swift */,
+				E65EF17B296DBF8700755D0A /* TempPokemon.swift */,
 				E6198ECF291A9C4B005A74EF /* Gen3.xcdatamodeld */,
+				E6198EC8291A9C4B005A74EF /* Assets.xcassets */,
 				E6198ECA291A9C4B005A74EF /* Preview Content */,
 			);
 			path = Gen3;
@@ -145,6 +148,7 @@
 			files = (
 				E6198ECE291A9C4B005A74EF /* Persistence.swift in Sources */,
 				E6198EC7291A9C4A005A74EF /* ContentView.swift in Sources */,
+				E65EF17C296DBF8700755D0A /* TempPokemon.swift in Sources */,
 				E6198ED1291A9C4B005A74EF /* Gen3.xcdatamodeld in Sources */,
 				E6198EC5291A9C4A005A74EF /* Gen3App.swift in Sources */,
 			);

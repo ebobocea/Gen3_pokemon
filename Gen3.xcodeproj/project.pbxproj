@@ -14,6 +14,8 @@
 		E6198ECE291A9C4B005A74EF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6198ECD291A9C4B005A74EF /* Persistence.swift */; };
 		E6198ED1291A9C4B005A74EF /* Gen3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6198ECF291A9C4B005A74EF /* Gen3.xcdatamodeld */; };
 		E65EF17C296DBF8700755D0A /* TempPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65EF17B296DBF8700755D0A /* TempPokemon.swift */; };
+		E687B7B8296EBA6C00DA2691 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687B7B7296EBA6C00DA2691 /* FetchController.swift */; };
+		E687B7BA296EC41B00DA2691 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687B7B9296EC41B00DA2691 /* PokemonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		E6198ECD291A9C4B005A74EF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E6198ED0291A9C4B005A74EF /* Gen3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gen3.xcdatamodel; sourceTree = "<group>"; };
 		E65EF17B296DBF8700755D0A /* TempPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempPokemon.swift; sourceTree = "<group>"; };
+		E687B7B7296EBA6C00DA2691 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
+		E687B7B9296EC41B00DA2691 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				E6198EC6291A9C4A005A74EF /* ContentView.swift */,
 				E6198ECD291A9C4B005A74EF /* Persistence.swift */,
 				E65EF17B296DBF8700755D0A /* TempPokemon.swift */,
+				E687B7B7296EBA6C00DA2691 /* FetchController.swift */,
+				E687B7B9296EC41B00DA2691 /* PokemonViewModel.swift */,
 				E6198ECF291A9C4B005A74EF /* Gen3.xcdatamodeld */,
 				E6198EC8291A9C4B005A74EF /* Assets.xcassets */,
 				E6198ECA291A9C4B005A74EF /* Preview Content */,
@@ -148,6 +154,8 @@
 			files = (
 				E6198ECE291A9C4B005A74EF /* Persistence.swift in Sources */,
 				E6198EC7291A9C4A005A74EF /* ContentView.swift in Sources */,
+				E687B7B8296EBA6C00DA2691 /* FetchController.swift in Sources */,
+				E687B7BA296EC41B00DA2691 /* PokemonViewModel.swift in Sources */,
 				E65EF17C296DBF8700755D0A /* TempPokemon.swift in Sources */,
 				E6198ED1291A9C4B005A74EF /* Gen3.xcdatamodeld in Sources */,
 				E6198EC5291A9C4A005A74EF /* Gen3App.swift in Sources */,

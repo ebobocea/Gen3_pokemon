@@ -55,15 +55,14 @@ struct TempPokemon: Codable{
         //Main container
         let container = try decoder.container(keyedBy: PokemonKeys.self)
         
-        
-        
-        self.id = try container.decode(Int.self, forKey: .id)
-        self.name = try container.decode(String.self, forKey: .name)
+        id = try container.decode(Int.self, forKey: .id)
+        name = try container.decode(String.self, forKey: .name)
         
         //Var for types
         var decodedTypes: [String] = []
-        
         var typesContainer = try container.nestedUnkeyedContainer(forKey: .types)
+        
+        
         while !typesContainer.isAtEnd {
             let typesDictionaryContainer = try typesContainer.nestedContainer(keyedBy: PokemonKeys.TypeDictionaryKeys.self)
             
@@ -74,27 +73,28 @@ struct TempPokemon: Codable{
             decodedTypes.append(type)
         }
         //Types done
-        self.types = decodedTypes
+        types = decodedTypes
         
         //Stats
         var statsContainer = try container.nestedUnkeyedContainer(forKey: .stats)
+        
         while !statsContainer.isAtEnd {
             let statsDictionaryContainer = try statsContainer.nestedContainer(keyedBy: PokemonKeys.StatDictinaryKeys.self)
             let statContainer = try statsDictionaryContainer.nestedContainer(keyedBy: PokemonKeys.StatDictinaryKeys.StatKeys.self, forKey: .stat)
             
             switch try statContainer.decode(String.self, forKey: .name){
             case "hp":
-                self.hp = try statsDictionaryContainer.decode(Int.self, forKey: .value)
+                hp = try statsDictionaryContainer.decode(Int.self, forKey: .value)
             case "attack":
-                self.attack =  try statsDictionaryContainer.decode(Int.self, forKey: .value)
+                attack =  try statsDictionaryContainer.decode(Int.self, forKey: .value)
             case "defence":
-                self.defence = try statsDictionaryContainer.decode(Int.self, forKey: .value)
+                defence = try statsDictionaryContainer.decode(Int.self, forKey: .value)
             case "specialAttack":
-                self.specialAttack = try statsDictionaryContainer.decode(Int.self, forKey: .value)
+                specialAttack = try statsDictionaryContainer.decode(Int.self, forKey: .value)
             case "specialDefence":
-                self.specialDefence = try statsDictionaryContainer.decode(Int.self, forKey: .value)
+                specialDefence = try statsDictionaryContainer.decode(Int.self, forKey: .value)
             case "speed":
-                self.speed = try statsDictionaryContainer.decode(Int.self, forKey: .value)
+                speed = try statsDictionaryContainer.decode(Int.self, forKey: .value)
                 
             default:
                 print("not found")
@@ -103,8 +103,8 @@ struct TempPokemon: Codable{
         }
         
         let spritesContainer = try container.nestedContainer(keyedBy: PokemonKeys.SpritesKeys.self, forKey: .sprites)
-        self.sprite = try spritesContainer.decode(URL.self, forKey: .sprite)
-        self.shiny = try spritesContainer.decode(URL.self, forKey: .shiny)
+        sprite = try spritesContainer.decode(URL.self, forKey: .sprite)
+        shiny = try spritesContainer.decode(URL.self, forKey: .shiny)
         
     }
 }

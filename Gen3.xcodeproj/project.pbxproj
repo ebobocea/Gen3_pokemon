@@ -19,6 +19,7 @@
 		E687B7BC296ED15700DA2691 /* PokemonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687B7BB296ED15700DA2691 /* PokemonDetail.swift */; };
 		E687B7BE296ED54900DA2691 /* SamplePokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687B7BD296ED54900DA2691 /* SamplePokemon.swift */; };
 		E687B7C0296EF75800DA2691 /* Pokemon+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687B7BF296EF75800DA2691 /* Pokemon+Ext.swift */; };
+		E6EB19C429700BCC00E7E52D /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EB19C329700BCC00E7E52D /* Stats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		E687B7BB296ED15700DA2691 /* PokemonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetail.swift; sourceTree = "<group>"; };
 		E687B7BD296ED54900DA2691 /* SamplePokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePokemon.swift; sourceTree = "<group>"; };
 		E687B7BF296EF75800DA2691 /* Pokemon+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon+Ext.swift"; sourceTree = "<group>"; };
+		E6EB19C329700BCC00E7E52D /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				E6198EC4291A9C4A005A74EF /* Gen3App.swift */,
 				E6198EC6291A9C4A005A74EF /* ContentView.swift */,
 				E687B7BB296ED15700DA2691 /* PokemonDetail.swift */,
+				E6EB19C329700BCC00E7E52D /* Stats.swift */,
 				E687B7BF296EF75800DA2691 /* Pokemon+Ext.swift */,
 				E687B7BD296ED54900DA2691 /* SamplePokemon.swift */,
 				E6198ECD291A9C4B005A74EF /* Persistence.swift */,
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6198ECE291A9C4B005A74EF /* Persistence.swift in Sources */,
+				E6EB19C429700BCC00E7E52D /* Stats.swift in Sources */,
 				E6198EC7291A9C4A005A74EF /* ContentView.swift in Sources */,
 				E687B7BC296ED15700DA2691 /* PokemonDetail.swift in Sources */,
 				E687B7C0296EF75800DA2691 /* Pokemon+Ext.swift in Sources */,

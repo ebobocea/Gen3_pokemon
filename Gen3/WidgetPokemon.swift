@@ -29,7 +29,7 @@ struct WidgetPokemon: View {
                     FetchedImage(url: pokemon.sprite)
                     VStack(alignment: .leading) {
                         Text(pokemon.name!.capitalized)
-                            .font(.title)
+                            .font(.title2)
                         Text(pokemon.types!.joined(separator: ", ").capitalized)
                     }
                     .padding(30)
@@ -59,7 +59,7 @@ struct WidgetPokemon: View {
 
 struct WidgetPokemon_Previews: PreviewProvider {
     static var previews: some View {
-        WidgetPokemon(widgetSize: .large)
+        WidgetPokemon(widgetSize: .medium)
             .environmentObject(SamplePokemon.samplePokemon)
     }
 }

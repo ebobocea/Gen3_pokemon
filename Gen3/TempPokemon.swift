@@ -46,7 +46,7 @@ struct TempPokemon: Codable{
         }
         
         enum SpritesKeys: String, CodingKey {
-            case sprite = "front_defaul"
+            case sprite = "front_default"
             case shiny = "front_shiny"
         }
     }

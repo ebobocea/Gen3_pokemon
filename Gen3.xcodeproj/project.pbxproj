@@ -20,6 +20,8 @@
 		E687B7BE296ED54900DA2691 /* SamplePokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687B7BD296ED54900DA2691 /* SamplePokemon.swift */; };
 		E687B7C0296EF75800DA2691 /* Pokemon+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687B7BF296EF75800DA2691 /* Pokemon+Ext.swift */; };
 		E6EB19C429700BCC00E7E52D /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EB19C329700BCC00E7E52D /* Stats.swift */; };
+		E6EB19C629715CCE00E7E52D /* FetchedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EB19C529715CCE00E7E52D /* FetchedImage.swift */; };
+		E6EB19C829715FC600E7E52D /* WidgetPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EB19C729715FC600E7E52D /* WidgetPokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		E687B7BD296ED54900DA2691 /* SamplePokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePokemon.swift; sourceTree = "<group>"; };
 		E687B7BF296EF75800DA2691 /* Pokemon+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon+Ext.swift"; sourceTree = "<group>"; };
 		E6EB19C329700BCC00E7E52D /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		E6EB19C529715CCE00E7E52D /* FetchedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedImage.swift; sourceTree = "<group>"; };
+		E6EB19C729715FC600E7E52D /* WidgetPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				E6198EC6291A9C4A005A74EF /* ContentView.swift */,
 				E687B7BB296ED15700DA2691 /* PokemonDetail.swift */,
 				E6EB19C329700BCC00E7E52D /* Stats.swift */,
+				E6EB19C529715CCE00E7E52D /* FetchedImage.swift */,
+				E6EB19C729715FC600E7E52D /* WidgetPokemon.swift */,
 				E687B7BF296EF75800DA2691 /* Pokemon+Ext.swift */,
 				E687B7BD296ED54900DA2691 /* SamplePokemon.swift */,
 				E6198ECD291A9C4B005A74EF /* Persistence.swift */,
@@ -168,6 +174,7 @@
 				E6EB19C429700BCC00E7E52D /* Stats.swift in Sources */,
 				E6198EC7291A9C4A005A74EF /* ContentView.swift in Sources */,
 				E687B7BC296ED15700DA2691 /* PokemonDetail.swift in Sources */,
+				E6EB19C829715FC600E7E52D /* WidgetPokemon.swift in Sources */,
 				E687B7C0296EF75800DA2691 /* Pokemon+Ext.swift in Sources */,
 				E687B7B8296EBA6C00DA2691 /* FetchController.swift in Sources */,
 				E687B7BE296ED54900DA2691 /* SamplePokemon.swift in Sources */,
@@ -175,6 +182,7 @@
 				E65EF17C296DBF8700755D0A /* TempPokemon.swift in Sources */,
 				E6198ED1291A9C4B005A74EF /* Gen3.xcdatamodeld in Sources */,
 				E6198EC5291A9C4A005A74EF /* Gen3App.swift in Sources */,
+				E6EB19C629715CCE00E7E52D /* FetchedImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
